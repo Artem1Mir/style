@@ -1,0 +1,146 @@
+header #logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+nav{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 20px;
+    background-color: blue;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+nav a:hover{
+    background-color: aliceblue;
+    color:blue;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+
+.header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 200px 0;
+    background-image: url(img/hb.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(59, 55, 55);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 12px 24px;
+    transition: .5s;
+}
+
+.header a:hover{
+    background-color: white;
+    color: rgb(59, 55, 55);
+}
+
+#about-company img{
+    width: 400px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 0;
+}
+
+#about-company{
+    width: 1200px;
+    padding: 40px 0;
+    margin: 0 auto;
+    text-align: justify;
+    background-color: gray;
+    color: aliceblue;
+}
+
+#about-company h2{
+    text-align: center;
+    color: white;
+}
+
+main{
+    background-image: url(img/uzor.jpg);
+}
+
+#about-company p{
+    margin-left: 50px;
+    text-shadow: 1px 1px 2px black
+}
+
+.channel{
+    background-color: rgb(255, 255, 255);
+    color: red;
+    width: 1400px;
+    height: 500pxpx;
+    padding-bottom: 50px;
+}
+
+.channel a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    transition: .5s;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.channel a:hover{
+    background-color: gray;
+    color: red;
+}
+
+.channel h2{
+    text-align: center;
+}
+
+.people{
+    background-color: aquamarine;
+    color: blue;
+    width: 1503px;
+}
+
+.people a{
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    transition: .5s;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.people a:hover{
+    background-color: blue;
+    color: white;
+}
+
+.people img{
+    border: 10px blue double;
+    width: 200px;
+}
